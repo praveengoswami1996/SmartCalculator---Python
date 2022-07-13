@@ -87,8 +87,8 @@ def main():
             elif word.upper() in commands.keys():
                 commands[word.upper()]()
                 break
-            else:
-                sorry()
+        else:
+            sorry()
 
 if __name__=="__main__":
     main()
